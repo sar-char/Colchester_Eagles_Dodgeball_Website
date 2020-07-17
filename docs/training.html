@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>Get Involved - Colchester Eagles Dodgeball Club</title>
+<link rel="icon" type="image/jpg" href="/assets/images/colchester_eagles_logo.jpg">
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!--Sarah's CSS-->
+<link rel="stylesheet" type="text/css" href="/assets/css/site.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<header class="navbar">
+<div class="container-fluid">
+<div class="col-md-6"><img src="/assets/images/logo.jpg" alt="colchester_eagles.com" width="170" height="70"></li></div>
+<div class="col-md-6">
+<li><a href="/index.html">Home</a></li>
+<li><a href="/about.html">About</a></li>
+<li><a href="/training.html">Get Involved</a></li>
+<!--<li><a href="/latest-news.html">News</a><li>-->
+<li><a href="/contact-us.html">Contact</a></li>
+</div>
+</div>
+</header>
+
+<div class="col-md-12" style="background-color:#ff8c00;padding-bottom:5px"></div>
+
+
+<div class="panel">
+<div class="panel-heading">
+<h1 style="text-align:center;margin-bottom:25px;">Get Involved</h1>
+</div>
+<div class="panel-body">
+<div class="row">
+<div class="col-md-12" style="text-align:wrap;margin-bottom:25px;">
+<div class="col-md-2"></div>
+<div class="col-md-8">
+<p>Get involved with dodgeball and come and train with us, in a fun and relaxed atmosphere with a great group of people. These sessions involve a mixture of drills to develop skill and general fitness as well as fun matches to put what's learnt into practice.</p>
+<p>All abilities welcome. Don&rsquo;t worry if are a beginner, we will run through the rules, show you the basics and get you into games.</p>
+<p>We also play competitive matches and participate in open tournaments held by the UKDBA, throughout the year, in some cases training will be tailored to tournament practice</p>
+<center><b>Training held every Sunday from 19:30pm to 20:30pm in the Sports Hall, Colchester Leisure World.</b><center><br>
+<center><b>First sessions are free, thereafter &pound;3 per session or &pound;10 per month. </b></center><br>
+<center><b>Drop-in to a session or contact us for more information</b></center>
+</div>
+<div class="col-md-2"></div>
+</div>
+<div class="col-md-12">
+<div class="col-md-2"></div>
+<div class="col-md-8" id="map" style="width:65%;height:300px;"></div>
+<div class="col-md-2"></div>
+</div>
+</div>
+</div>
+</div>
+
+
+<!--Footer-->
+<div class="col-md-12" style="background-color:#ff8c00;padding-top:5px;"></div>
+<footer class="navbar">
+<div class="container-fluid">
+<div class="col-md-7">
+<li><a href="/index.html">Home</a></li>
+<<<<<<< HEAD:docs/training.html
+<li><a href="/about-us.html">About</a></li>
+<li><a href="/training.html">Get Involved</a></li>
+<li><a href="/contact-us.html">Contact</a></li>
+=======
+<li><a href="/pages/about.html">About</a></li>
+<li><a href="/pages/training.html">Get Involved</a></li>
+<li><a href="/pages/contact_us.html">Contact</a></li>
+>>>>>>> refs/remotes/sarcha/master:pages/training.html
+</div>
+<div class="col-md-5">
+<li>Contact us at colchestereagles@gmail.com</li><br><br>
+<li>Follow us on</li>
+<li><a target="_blank" title="Follow us on facebook" href="https://www.facebook.com/ColchesterEaglesDodgeball/"><img src="/assets/images/FB_logo.png"></a></li>		
+</div>
+<div class="col-md-12">
+<li>&copy;2017 Colchester Eagles Dodgeball</li>
+<li>Registered with the United Kingdom Dodgeball Association (UKDBA)</li>
+</div>
+</div>
+</footer>
+
+<!--setup javascript-->
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<!--Script to create a google map within a web page-->
+
+<script>
+function initMap(){
+var uluru = {lat:51.8969,lng:0.9056};
+var map = new google.maps.Map(document.getElementById('map'),{zoom:14,center:uluru});
+
+var infowindow = new google.maps.InfoWindow({
+    content: "Training 7:30 -8:30<br>Leisure World Colchester<br>Cowdray Avenue<br>Colchester<br>CO1 1YH"
+  });
+  
+  var marker = new google.maps.Marker({position:uluru, map:map});
+marker.addListener('click',function(){infowindow.open(map,marker);});}
+</script>
+
+<script
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGL5prb-jyRm961Cli6_xu6jeOEpbKY4c&callback=initMap">
+</script>
+
+</body>
+</html>
